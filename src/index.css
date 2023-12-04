@@ -26,7 +26,21 @@ body {
 
 .banner::before {
   left: 0;
-  border: 51vw solid #fff;
+  border: 50vw solid #fff;
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  content: "";
+  border-top: 1.6875rem solid transparent;
+  border-bottom: 0 solid transparent;
+  z-index: 5;
+}
+
+.banner:after {
+  right: 0;
+  border: 50vw solid #fff;
   display: block;
   position: absolute;
   width: 0;
@@ -86,7 +100,7 @@ a {
 }
 
 .btn-primary {
-  @apply py-3 px-6 rounded-lg transition-all duration-300;
+  @apply py-3 px-6 transition-all duration-300;
 }
 
 .form-input {
