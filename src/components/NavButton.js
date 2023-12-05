@@ -89,7 +89,7 @@ function NavButton(props) {
             scrollPosition > 0
               ? "text-blue-primary bg-white"
               : "bg-transparent text-white",
-            "peer group py-2 px-5 transition-all duration-300 flex items-center font-semibold border rounded-xl hover:bg-blue-primary hover:border-blue-primary hover:text-gold-primary"
+            "peer group py-2 px-2 transition-all duration-300 flex items-center font-semibold border-b hover:border-gold-primary hover:text-gold-primary"
           )}
           href={to}
         >
@@ -148,7 +148,7 @@ function NavButton(props) {
         scrollPosition > 0
           ? "text-blue-primary bg-white"
           : "bg-transparent text-white",
-        "py-2 px-5 transition-all duration-300 flex items-center font-semibold border hover:bg-blue-primary hover:border-blue-primary hover:text-amber-400"
+        "py-2 px-2 transition-all duration-300 flex items-center font-semibold border-b hover:border-gold-primary hover:text-gold-primary"
       )}
       aria-current="page"
       href={to}

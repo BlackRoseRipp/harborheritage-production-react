@@ -20,8 +20,6 @@ const Navbar = () => {
     return classes.filter(Boolean).join(" ");
   };
 
-  console.log(size.width);
-
   return (
     <Fragment>
       <nav
@@ -36,14 +34,14 @@ const Navbar = () => {
         <div
           className={classNames(
             scrollPosition > 0 ? "" : "",
-            "max-w-7xl py-4 flex justify-between items-center mx-auto w-full relative"
+            "max-w-7xl flex justify-between items-center mx-auto w-full relative h-[73px]"
           )}
         >
           {scrollPosition > 0 || size.width < 768 ? (
             <a href="/" className="md:w-48 w-36">
               <img
                 src="/img/logos/harbor-heritage-university.png"
-                className="w-48"
+                className="w-36"
                 alt="Logo"
               />
             </a>
@@ -83,7 +81,7 @@ const Navbar = () => {
             className={classNames(
               size.width < 1024 ? "hidden" : "",
               scrollPosition > 0 ? "justify-center" : "justify-end",
-              "flex flex-row items-center grow rounded-lg ml-4"
+              "flex flex-row items-center grow rounded-lg gap-x-4"
             )}
           >
             <li>
@@ -92,8 +90,12 @@ const Navbar = () => {
             <li>
               <NavButton
                 to="#"
-                primary="Our Colleges"
+                primary="Academic Programs"
                 dropdownLinks={[
+                  {
+                    primary: "FIGHR Academic Conservatory",
+                    to: "/fighr-academic-conservatory",
+                  },
                   {
                     primary: "Lalo College of Restorative Justice",
                     to: "/hhu-lalo-college-of-restorative-justice",
@@ -106,18 +108,18 @@ const Navbar = () => {
                     primary: "IGLASS Women's College",
                     to: "/hhu-iglass-womens-college",
                   },
+                  {
+                    primary: "Diplomatic Fellowships",
+                    to: "/diplomatic-fellowships",
+                  },
                 ]}
               />
             </li>
             <li>
               <NavButton
                 to="#"
-                primary="Our Programs"
+                primary="Degree Programs"
                 dropdownLinks={[
-                  {
-                    primary: "FIGHR Academic Conservatory",
-                    to: "/fighr-academic-conservatory",
-                  },
                   {
                     primary: "Associates of Arts (AA) Program",
                     to: "/associates-of-arts-aa-program",
@@ -137,10 +139,6 @@ const Navbar = () => {
                   {
                     primary: "Chaplaincy Doctoral (DPS) Program",
                     to: "/chaplaincy-doctoral-program-dps",
-                  },
-                  {
-                    primary: "Diplomatic Fellowships",
-                    to: "/diplomatic-fellowships",
                   },
                 ]}
               />
