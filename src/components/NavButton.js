@@ -155,7 +155,7 @@ function NavButton(props) {
         scrollPosition > 0
           ? "text-blue-primary bg-white"
           : "bg-transparent lg:text-white text-blue-primary",
-        "py-2 px-2 transition-all duration-300 flex items-center text-lg font-semibold border-b hover:border-gold-primary hover:text-gold-primary"
+        "py-2 px-2 transition-all duration-300 flex items-center font-semibold border-b hover:border-gold-primary hover:text-gold-primary"
       )}
       aria-current="page"
       href={to}

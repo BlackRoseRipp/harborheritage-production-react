@@ -38,6 +38,31 @@ const About = () => {
           </a>
         </div>
       </section>
+      <div className="max-w-7xl mx-auto w-[calc(100vw-1rem)] h-0.5 bg-gray-300"></div>
+      <section className="max-w-6xl mx-auto w-full px-2 lg:py-24 py-16">
+        <div className="columns-2 gap-8">
+          <img
+            className="w-full mb-8"
+            src="/img/works/fighr-cdi-certificate-quainoo_orig.jpg"
+            alt="FIGHR CDI Cert"
+          />
+          <img
+            className="w-full mb-8"
+            src="/img/works/fighr-ghr-global-ambassador-kksal-2_orig.jpg"
+            alt="FIGHR GHR Global Ambassador"
+          />
+          <img
+            className="w-full mb-8"
+            src="/img/works/certificate-of-accreditation-fighr-2_orig.jpg"
+            alt="FIGHR Accreditation Cert"
+          />
+          <img
+            className="w-full mb-8"
+            src="/img/works/2022-fighr-peace-prize-award-d-akende_orig.jpg"
+            alt="FIGHR Peace Prize Award"
+          />
+        </div>
+      </section>
     </Fragment>
   );
 };
