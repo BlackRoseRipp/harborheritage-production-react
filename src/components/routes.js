@@ -3,12 +3,16 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 const Home = React.lazy(() => import("../pages/Home"));
 const About = React.lazy(() => import("../pages/About"));
+const AcademicConservatory = React.lazy(() =>
+  import("../pages/AcademicConservatory")
+);
 const Contact = React.lazy(() => import("../pages/Contact"));
 const PageNotFound = React.lazy(() => import("../pages/PageNotFound"));
 
 export const pages = [
   { path: "/", component: <Home /> },
   { path: "/our-work", component: <About /> },
+  { path: "/fighr-academic-conservatory", component: <AcademicConservatory /> },
   { path: "/contact-us", component: <Contact /> },
   { path: "*", component: <PageNotFound /> },
 ];

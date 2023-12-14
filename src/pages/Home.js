@@ -12,7 +12,7 @@ const Home = () => {
       <section className="relative w-full overflow-x-hidden">
         <div className="bg-[url(../public/img/pexels-rdne-stock-project-771317.jpg)] bg-cover bg-center bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
           <div className="bg-black/50 w-full">
-            <div className="max-screen-w-xl mx-auto w-full lg:min-h-[900px] min-h-[500px] flex items-end justify-center px-2">
+            <div className="max-w-screen-xl mx-auto w-full lg:min-h-[900px] min-h-[500px] flex items-end justify-center px-2">
               <h1 className="text-white heading md:text-5xl text-3xl font-semibold text-center max-w-6xl lg:pb-[6.25rem] md:pb-16 pb-7">
                 The first and only University for the study of Gender and Human
                 Rights Advocacy and Leadership

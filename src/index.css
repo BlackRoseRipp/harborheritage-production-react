@@ -68,14 +68,26 @@ a {
   transition: all 300ms ease;
 }
 
+.text-wall a {
+  @apply text-blue-primary font-bold;
+}
+
+.text-wall a::after {
+  @apply bg-gold-primary;
+}
+
+.text-wall a:hover {
+  @apply text-gold-primary;
+}
+
 .underline-animation,
-.news-content a {
+.text-wall a {
   position: relative;
   text-decoration: none;
 }
 
 .underline-animation::after,
-.news-content a::after {
+.text-wall a::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -88,7 +100,7 @@ a {
 }
 
 .underline-animation:hover::after,
-.news-content a:hover::after {
+.text-wall a:hover::after {
   transform: scaleX(1);
 }
 
