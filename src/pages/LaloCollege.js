@@ -4,7 +4,7 @@ const LaloCollege = () => {
   return (
     <Fragment>
       <section className="relative w-full overflow-x-hidden">
-        <div className="bg-[url(../public/img/pexels-rfstudio-3059748.jpg)] bg-cover bg-center bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
+        <div className="bg-[url(../public/img/pexels-icsa-1708988.jpg)] bg-cover bg-center 2xl:bg-[center_top_-10rem] bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
           <div className="bg-black/50 w-full">
             <div className="max-w-screen-xl mx-auto w-full lg:min-h-[700px] xl:min-h-[800px] min-h-[500px] flex items-end justify-center px-2">
               <h1 className="text-white heading md:text-5xl text-3xl font-semibold text-center max-w-6xl lg:pb-[6.25rem] md:pb-16 pb-7">
@@ -23,7 +23,7 @@ const LaloCollege = () => {
         <img
           className="mt-8 mb-16 mx-auto sm:w-[380px] sm:h-[380px] w-3/4 h-auto"
           src="/img/logos/lalo-college-logo.jpg"
-          alt="Academic Conservatory"
+          alt="Lalo College"
         />
         <div className="flex flex-col gap-8">
           <h3 className="md:text-4xl text-2xl font-semibold text-center heading">
@@ -129,7 +129,6 @@ const LaloCollege = () => {
             for review by our formal Professional Educational Board.
             <br />
             <br />
-            <u>​</u>
             <strong>
               <u>Application process</u>:
             </strong>
@@ -146,38 +145,29 @@ const LaloCollege = () => {
             </strong>
             :<br />
             <br />
-            <p>1.</p>
+            1.{" "}
             <strong>
               <u>Obtain</u>
             </strong>
-            <p>:</p>
-            <strong>Two (2) letters</strong>
-            <p>
-              of Reference/Referral** from (either/or) an Educational,
-              Professional or Theological reference, that can
-            </p>
-            <u>verify</u>
-            <p>
-              the prerequisites in the respective areas and can validate both
-              your character and work ethic. The letter
-            </p>
+            : <strong>Two (2) letters</strong> of Reference/Referral** from
+            (either/or) an Educational, Professional or Theological reference,
+            that can <u>verify</u> the prerequisites in the respective areas and
+            can validate both your character and work ethic. The letter{" "}
             <strong>
               <u>MUST</u>
-            </strong>
-            <p>be on official letterhead and must have a legal (</p>
-            <strong>digital or hand-ink</strong>
-            <p>
-              ) signature affixed the letter (with seal, if applicable). No
-              'cursive' fonts will be accepted for signatures. All letters will
-              be vetted and verified for validity and consistency.
-            </p>
+            </strong>{" "}
+            be on official letterhead and must have a legal (
+            <strong>digital or hand-ink</strong>) signature affixed the letter
+            (with seal, if applicable). No 'cursive' fonts will be accepted for
+            signatures. All letters will be vetted and verified for validity and
+            consistency.
             <br />
             <br />
             <p>
               **The letter Referral/Reference must answer the following
               questions/statements:
             </p>
-            <ol>
+            <ol className="list-decimal list-inside ml-4">
               <li>How long and in what capacity the reference knows you.</li>
               <li>
                 The <u>SPECIFIC</u> work/ duties you did for them and an
@@ -185,10 +175,10 @@ const LaloCollege = () => {
                 <u>
                   <strong>NOTE</strong>
                 </u>
-                : you
+                : you{" "}
                 <u>
                   <strong>CANNOT</strong>
-                </u>
+                </u>{" "}
                 use any Probation, Parole, Community Confinement or Community
                 Service Hours from a Youth Offender, Adult Detention or an
                 Alternative to Incarceration (ATI) program).
@@ -208,7 +198,7 @@ const LaloCollege = () => {
               <strong>Construct</strong>
             </u>
             : A full, <u>one-page</u> personal statement that speaks to:
-            <ol>
+            <ol className="list-decimal list-inside ml-4">
               <li>The reason you want to take the Program.</li>
               <li>
                 What your career-field is (currently) and a few relevant
@@ -225,7 +215,7 @@ const LaloCollege = () => {
             </u>
             : (HarborHeritageUniversity
             <u>@gmail.com</u>) Have your counselor send the email.
-            <ol>
+            <ol className="list-decimal list-inside ml-4">
               <li>
                 The two (2) <u>Professional letters of reference/referral</u>
               </li>
@@ -251,7 +241,7 @@ const LaloCollege = () => {
             target="_blank"
             rel="noreferrer noopener"
             href="/pdfs/hhu_grrj_syllabus__associates_.pdf"
-            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Associate Program Syllabus
           </a>
@@ -259,7 +249,7 @@ const LaloCollege = () => {
             target="_blank"
             rel="noreferrer noopener"
             href="/pdfs/hhu_grrj_syllabus__bachelor_.pdf"
-            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Bachelor Program Syllabus
           </a>
@@ -267,7 +257,7 @@ const LaloCollege = () => {
             target="_blank"
             rel="noreferrer noopener"
             href="/pdfs/hhu_grrj_syllabus__master_.pdf"
-            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Master Program Syllabus
           </a>
@@ -275,7 +265,7 @@ const LaloCollege = () => {
             target="_blank"
             rel="noreferrer noopener"
             href="/pdfs/hhu_grrj_syllabus__doctorate_.pdf"
-            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Doctor of Professional Studies (DPS) PhD Program
           </a>
@@ -283,10 +273,9 @@ const LaloCollege = () => {
       </section>
       <div className="h-0.5 max-w-screen-2xl w-[calc(100%-2rem)] mx-auto bg-gold-primary"></div>
       <section className="max-w-screen-xl mx-auto w-full px-2 py-16 lg:py-24">
-        <u>
-          <strong>Other options of study</strong>
-        </u>
-        <br />
+        <h3 className="heading md:text-3xl text-xl font-semibold lg:text-start text-center mb-12">
+          Other options of study
+        </h3>
         <p>
           We offer a discounted, four-year Accelerated Program (you go from
           AA-PhD in four years). This is for those with a career in gender and
@@ -304,11 +293,10 @@ const LaloCollege = () => {
           the next course offering beginning in <strong>June</strong>. Students
           are welcome to finish and Graduate at the end of <u>any</u> program
           (AA, BA, MA and PhD/DPS program), but if they <u>do not</u> finish the
-          intended four-year program, they
-          <strong>will assume full market rate</strong>
-          for the course they just completed, due prior to graduation. (This
-          understanding will be signed and notarized as to the comprehension and
-          acceptance of these terms).
+          intended four-year program, they{" "}
+          <strong>will assume full market rate</strong> for the course they just
+          completed, due prior to graduation. (This understanding will be signed
+          and notarized as to the comprehension and acceptance of these terms).
         </p>
       </section>
     </Fragment>

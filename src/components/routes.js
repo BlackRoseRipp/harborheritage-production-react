@@ -7,6 +7,7 @@ const AcademicConservatory = React.lazy(() =>
   import("../pages/AcademicConservatory")
 );
 const LaloCollege = React.lazy(() => import("../pages/LaloCollege"));
+const LincolnCollege = React.lazy(() => import("../pages/LincolnCollege"));
 const Contact = React.lazy(() => import("../pages/Contact"));
 const PageNotFound = React.lazy(() => import("../pages/PageNotFound"));
 
@@ -17,6 +18,10 @@ export const pages = [
   {
     path: "/hhu-lalo-college-of-restorative-justice",
     component: <LaloCollege />,
+  },
+  {
+    path: "/hhu-lincoln-college-of-bipoc-research",
+    component: <LincolnCollege />,
   },
   { path: "/contact-us", component: <Contact /> },
   { path: "*", component: <PageNotFound /> },
