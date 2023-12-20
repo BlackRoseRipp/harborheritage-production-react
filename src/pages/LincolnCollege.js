@@ -306,7 +306,7 @@ const LincolnCollege = () => {
             </ol>
           </p>
         </div>
-        <div className="mt-16 flex justify-center items-center w-full gap-8">
+        <div className="mt-16 flex lg:flex-row flex-col justify-center items-center w-full gap-8">
           <a
             target="_blank"
             rel="noreferrer noopener"

@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 
-const LaloCollege = () => {
+const Iglass = () => {
   return (
     <Fragment>
       <section className="relative w-full overflow-x-hidden">
-        <div className="bg-[url(../public/img/pexels-icsa-1708988.jpg)] bg-cover bg-center 2xl:bg-[center_top_-10rem] bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
+        <div className="bg-[url(../public/img/pexels-monstera-production-62819.jpg)] bg-cover bg-top 2xl:bg-[center_top_-10rem] bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
           <div className="bg-black/50 w-full">
             <div className="max-w-screen-xl mx-auto w-full lg:min-h-[700px] xl:min-h-[800px] min-h-[500px] flex items-end justify-center px-2">
               <h1 className="text-white heading md:text-5xl text-3xl font-semibold text-center max-w-6xl lg:pb-[6.25rem] md:pb-16 pb-7">
-                A Restorative Justice ​Academic Program ​in Gender and Human
-                Rights
+                College of Women's Interdisciplinary Global Leadership in
+                Anthropology and Social Science (IGLASS)
               </h1>
             </div>
           </div>
@@ -17,47 +17,101 @@ const LaloCollege = () => {
       </section>
       <section className="max-w-screen-xl w-full mx-auto px-2 lg:py-24 py-16">
         <h2 className="heading md:text-5xl text-3xl font-semibold text-center">
-          Foundations in Leadership in Emotional Intelligence for Gender and
-          Human Rights
+          Foundations in Women's Leadership in Emotional Intelligence for Gender
+          and Human Rights
         </h2>
         <img
           className="mt-8 mb-16 mx-auto sm:w-[380px] sm:h-[380px] w-3/4 h-auto"
-          src="/img/logos/lalo-college-logo.jpg"
-          alt="Lalo College"
+          src="/img/logos/iglass-womens-center-logo.jpg"
+          alt="IGLASS"
         />
         <div className="flex flex-col gap-8">
           <h3 className="md:text-4xl text-2xl font-semibold text-center heading">
             Curriculum and Criteria for Community Corrections
           </h3>
           <p className="text-wall">
-            <u>OVERVIEW</u>:<br />
-            Our new College of Gender-Responsive Restorative Justice Program is
-            an <strong>Academic Degree</strong> program for those CURRENTLY
-            Incarcerated that are seeking a career advancement or an entry-level
-            education or those newly released, not seeking a collegiate career
-            but needing to add the professional certification to the current
-            work that they do for the community they serve.
+            <u>OVERVIEW</u>:
+            <br />
+            Our new IGLASS College is an <strong>Academic Degree</strong>{" "}
+            program for those women that are seeking a career advancement, an
+            entry-level and/or Secondary education <u>or</u> those, not seeking
+            a collegiate career, but needing to add the professional
+            certification to the current work that they do for the community
+            they serve. Our Women's College offers a wide range of topics to
+            provide a well-rounded education to empower its students. Some key
+            areas of study include:
+            <br />
+            <ol className="list-decimal list-outside ml-8 mt-2">
+              <li>
+                <em>STEM Fields</em>: Science, Technology, Engineering, and
+                Mathematics programs to encourage women in traditionally
+                male-dominated fields.
+                <br />
+              </li>
+              <li>
+                <em>Social Sciences</em>: Psychology, Sociology, Anthropology,
+                and Political Science to understand human behavior and society.{" "}
+                <br />
+              </li>
+              <li>
+                <em>Humanities</em>: Literature, History, Philosophy, and Fine
+                Arts to foster creativity and critical thinking. <br />
+              </li>
+              <li>
+                <em>Health and Wellness</em>: Community Mental and Public Health
+                to address current and future needs. <br />
+              </li>
+              <li>
+                <em>Gender and Human Rights Studies</em>: Focused programs to
+                explore gender issues, feminism, Human Rights and women's
+                studies. <br />
+              </li>
+              <li>
+                <em>Environmental Studies</em>: Sustainability, Ecology, and
+                Environmental Science to address pressing global concerns.{" "}
+                <br />
+              </li>
+              <li>
+                <em>Global Studies</em>: International Relations, Foreign
+                Languages, and Cultural Studies to prepare for a diverse,
+                interconnected world. <br />
+              </li>
+              <li>
+                <em>Education</em>: Teacher training programs for those
+                interested in careers in education. <br />
+              </li>
+              <li>
+                <em>Leadership and Empowerment</em>: Courses and workshops to
+                develop leadership skills, self-confidence, and empowerment.{" "}
+                <br />
+              </li>
+              <li>
+                <em>Communication</em>: Journalism, Media Studies, and
+                Communication Arts for effective expression and media literacy.{" "}
+                <br />
+              </li>
+              <li>
+                <em>Interdisciplinary Studies</em>: Cross-disciplinary courses
+                that encourage creativity and innovation.
+              </li>
+            </ol>
+            <br />
+            This course is specifically designed for the:
             <br />
             <br />
-            Specifically designed for the:
+            1. <strong>Youth of Tomorrow</strong> that knows that they have the
+            ability to lead but needs the encouragement and support.
             <br />
+            2. <strong>Retirees</strong> that are returning to the "Phase 2" of
+            their life and wants something that is more meaningful in the work
+            that they want to contribute to society.
             <br />
-            1. <strong>
-              Alternative High School Student/At-Risk Youth
-            </strong>{" "}
-            that knows that they have the ability to lead but needs the
-            encouragement.
+            3. <strong>Senior Executives</strong> seeking a more expansive
+            career to serve "something bigger than themselves".
             <br />
-            2. <strong>Senior/Long Term Offenders</strong> that are returning to
-            society and wanting their "Second Wind" in life and needing the
-            education.
-            <br />
-            3. <strong>Returning Citizens</strong> seeking a more rewarding
-            career that can help their Tribe and their community.
-            <br />
-            4. <strong>Outpatient Recovering Addicts</strong> in-between careers
-            or currently unemployed that need and want the support to challenge
-            the field of Gender and Human Rights to educate and instruct the
+            4. <strong>Transitioning Executives</strong> in-between careers or
+            currently unemployed that need and want the support to challenge the
+            field of Gender and Human Rights to educate and instruct the
             community they serve.
             <br />
             <br />
@@ -82,15 +136,16 @@ const LaloCollege = () => {
             <br />
             <br />
             <strong>
-              <u>Class times</u>
-              <br />
+              {" "}
+              <u>Class times</u> <br />
               <br />
               Session 1
             </strong>{" "}
             - January to December (FULL registration by <strong>
               October
             </strong>{" "}
-            of <u>prior</u> year) <br />
+            of <u>prior</u> year)
+            <br />
             <strong>Session 2</strong> - June to May (FULL registration by{" "}
             <strong>April</strong> of <u>current</u> year)
             <br />
@@ -98,16 +153,16 @@ const LaloCollege = () => {
             <strong>
               <u>Investment</u>
             </strong>
-            :<br />
+            :
+            <br />
             Current market rate for this one-year, offering is{" "}
             <u>
-              <strong>USD</strong>
-              <strong>$7,500.00</strong>
-            </u>
-            , per Student, via invoice. (<strong>$7,000</strong> for the course
+              <strong>USD$10,500.00</strong>
+            </u>{" "}
+            per Student, via invoice. (<strong>$10,000</strong> for the course
             and <strong>$500</strong> for Graduation Fees). Payment plans are
-            offered with a <strong>USD $1,500</strong> deposit and eight (8)
-            monthly payments of <strong>USD $750.00</strong> (no-interest
+            offered with a <strong>USD $2,500</strong> deposit and eight (8)
+            monthly payments of <strong>USD$1,000.00</strong> (no-interest
             financing; payments through Square, CashApp and PayPal). This is
             also an Investment-based Program. Investments come from Corporate
             donations and will be applied to the Student's account for books and
@@ -117,7 +172,8 @@ const LaloCollege = () => {
             <u>
               <strong>Prerequisites</strong>
             </u>
-            :<br />
+            :
+            <br />
             Designed to give credit for <strong>Life/Work Experience</strong>,
             in Humanities, Theology, Human Service Work and unlicensed
             Social/Case Work or retired LCSW, this program was designed to
@@ -129,6 +185,7 @@ const LaloCollege = () => {
             for review by our formal Professional Educational Board.
             <br />
             <br />
+            <u>​</u>
             <strong>
               <u>Application process</u>:
             </strong>
@@ -143,7 +200,8 @@ const LaloCollege = () => {
             <strong>
               <u>MUST</u>
             </strong>
-            :<br />
+            :
+            <br />
             <br />
             1.{" "}
             <strong>
@@ -157,16 +215,14 @@ const LaloCollege = () => {
               <u>MUST</u>
             </strong>{" "}
             be on official letterhead and must have a legal (
-            <strong>digital or hand-ink</strong>) signature affixed the letter
-            (with seal, if applicable). No 'cursive' fonts will be accepted for
-            signatures. All letters will be vetted and verified for validity and
-            consistency.
+            <strong>digital or hand-ink</strong>
+            ) signature affixed the letter (with seal, if applicable). No
+            'cursive' fonts will be accepted for signatures. All letters will be
+            vetted and verified for validity and consistency.
             <br />
             <br />
-            <p>
-              **The letter Referral/Reference must answer the following
-              questions/statements:
-            </p>
+            **The letter Referral/Reference must answer the following
+            questions/statements:
             <ol className="list-decimal list-outside ml-8">
               <li>How long and in what capacity the reference knows you.</li>
               <li>
@@ -223,15 +279,13 @@ const LaloCollege = () => {
                 The full, one-page <u>Personal Statement</u>
               </li>
               <li>
-                Copy of the <u>ID page</u> of your passport or a photo of your
-                <u>State/local</u>
-                ID
+                Copy of the <u>ID page</u> of your passport or a photo of your{" "}
+                <u>State/local</u> ID
               </li>
               <li>
-                Your <strong>updated</strong> <u>professional résumé</u> or
-                <u>academic CV</u>
-                (You are welcome to get recent transcripts of your education if
-                this applies)
+                Your <strong>updated</strong> <u>professional résumé</u> or{" "}
+                <u>academic CV</u> (You are welcome to get recent transcripts of
+                your education if this applies)
               </li>
             </ol>
           </p>
@@ -240,34 +294,34 @@ const LaloCollege = () => {
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="/pdfs/hhu_grrj_syllabus__associates_.pdf"
-            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            href="/pdfs/hhu_iglass_syllabus__associates_.pdf"
+            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Associate Program Syllabus
           </a>
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="/pdfs/hhu_grrj_syllabus__bachelor_.pdf"
-            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            href="/pdfs/hhu_iglass_syllabus__bachelors_.pdf"
+            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Bachelor Program Syllabus
           </a>
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="/pdfs/hhu_grrj_syllabus__master_.pdf"
-            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            href="/pdfs/hhu_iglass_syllabus__masters_.pdf"
+            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
-            Download Master Program Syllabus
+            Master Program Syllabus
           </a>
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="/pdfs/hhu_grrj_syllabus__doctorate_.pdf"
-            className="btn-primary text-center hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+            href="/pdfs/hhu_iglass_syllabus__doctoral_.pdf"
+            className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
-            Download Doctor of Professional Studies (DPS) PhD Program
+            Doctor of Professional Studies (DPS) PhD Program
           </a>
         </div>
       </section>
@@ -276,24 +330,28 @@ const LaloCollege = () => {
         <h3 className="heading md:text-3xl text-xl font-semibold lg:text-start text-center mb-12">
           Other options of study
         </h3>
-        <p>
+        <p className="text-wall">
+          <u>
+            <strong>HHU Accelerated Program (AP)</strong>
+          </u>
+          <br />
           We offer a discounted, four-year Accelerated Program (you go from
           AA-PhD in four years). This is for those with a career in gender and
           Human Rights and focused on the role of leader in this field.
           Investment for this program is{" "}
           <u>
-            <strong>USD$20,000.00</strong>
+            <strong>USD$40,000.00</strong>
           </u>{" "}
-          (<strong>USD$5,000</strong> per year, per student) which is{" "}
-          <strong>USD$19,500.00</strong> for the course work and{" "}
-          <strong>USD$500.00</strong> in Graduation Fees - this <u>excludes</u>{" "}
-          fees for the Cap/Tam and Gown/Robe. Payment Plans offered. Under this{" "}
-          <strong>Accelerated Program</strong>, class will begin annually, in{" "}
-          <strong>June</strong> and will commence in <strong>May</strong> with
-          the next course offering beginning in <strong>June</strong>. Students
-          are welcome to finish and Graduate at the end of <u>any</u> program
-          (AA, BA, MA and PhD/DPS program), but if they <u>do not</u> finish the
-          intended four-year program, they{" "}
+          (<strong>USD$10,000</strong> per year, per student) which is{" "}
+          <strong>USD$9,500.00</strong> for the course work and{" "}
+          <strong>USD$500.00</strong> in Graduation Fees (yearly) - this{" "}
+          <u>excludes</u> fees for the Cap/Tam and Gown/Robe. Payment Plans
+          offered. Under this <strong>Accelerated Program</strong>, class will
+          begin annually, in <strong>June</strong> and will commence in{" "}
+          <strong>May</strong> with the next course offering beginning in{" "}
+          <strong>June</strong>. Students are welcome to finish and Graduate at
+          the end of <u>any</u> program (AA, BA, MA and PhD/DPS program), but if
+          they <u>do not</u> finish the intended four-year program, they{" "}
           <strong>will assume full market rate</strong> for the course they just
           completed, due prior to graduation. (This understanding will be signed
           and notarized as to the comprehension and acceptance of these terms).
@@ -303,4 +361,4 @@ const LaloCollege = () => {
   );
 };
 
-export default LaloCollege;
+export default Iglass;
