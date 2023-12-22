@@ -2,12 +2,12 @@ import { Fragment } from "react";
 import FellowshipList from "../store/FELLOWSHIPS.json";
 
 const Fellowships = () => {
-  const presentList = FellowshipList.map((fellowship) => {
+  const presentList = FellowshipList.filter((fellowship) => {
     if (!fellowship.future) {
       return fellowship;
     }
   });
-  const futureList = FellowshipList.map((fellowship) => {
+  const futureList = FellowshipList.filter((fellowship) => {
     if (fellowship.future) {
       return fellowship;
     }
@@ -16,7 +16,7 @@ const Fellowships = () => {
   return (
     <Fragment>
       <section className="relative w-full overflow-x-hidden">
-        <div className="bg-[url(../public/img/pexels-monstera-production-62819.jpg)] bg-cover bg-top 2xl:bg-[center_top_-10rem] bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
+        <div className="bg-[url(../public/img/pexels-matheus-bertelli-3856027.jpg)] bg-cover bg-top 2xl:bg-[center_top_-10rem] bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
           <div className="bg-black/50 w-full">
             <div className="max-w-screen-xl mx-auto w-full lg:min-h-[700px] xl:min-h-[800px] min-h-[500px] flex items-end justify-center px-2">
               <h1 className="text-white heading md:text-5xl text-3xl font-semibold text-center max-w-6xl lg:pb-[6.25rem] md:pb-16 pb-7">
@@ -151,29 +151,31 @@ const Fellowships = () => {
       <section className="max-w-screen-xl mx-auto w-full px-2 py-16 lg:py-24">
         <div className="flex flex-col gap-8">
           {presentList.map((fellowship) => {
-            const slicedText = fellowship.length
+            const slicedText = fellowship.duration
               .split(" ")
               .slice(0, -1)
               .join(" ");
-            const boldedText = fellowship.length.split(" ")[-1];
+            const boldedText = fellowship.duration.split(" ")[-1];
             return (
-              <div className="grid grid-cols-3 gap-4">
-                <div className="flex justify-center items-center">
+              <div className="grid sm:grid-cols-3 gap-4">
+                <div className="hidden sm:flex justify-center items-center">
                   <img
                     src="/img/logos/aghrass-logo-transparent-1.png"
                     className="w-full"
                     alt="AGHRASS"
                   />
                 </div>
-                <div className="col-span-2 flex flex-col gap-2">
-                  <h5 className="underline">{fellowship.title}</h5>
+                <div className="col-span-2 flex flex-col justify-center gap-2">
+                  <h5 className="underline font-bold text-lg">
+                    {fellowship.title}
+                  </h5>
                   <h6 className="text-base">
                     {slicedText}&nbsp;
                     <span className="font-bold">{boldedText}</span>
                   </h6>
                   {fellowship.offerings.length > 0 ? (
                     <div className="flex flex-col">
-                      <h6 className="underline font-bold">ANNUAL OFFERINGS:</h6>
+                      <h6 className="underline">ANNUAL OFFERINGS:</h6>
                       <p>{fellowship.offerings}</p>
                     </div>
                   ) : (
@@ -183,7 +185,7 @@ const Fellowships = () => {
                   )}
                   {fellowship.certs ? (
                     <div className="flex flex-col">
-                      <h6 className="underline font-bold">
+                      <h6 className="underline">
                         Professional Certificates offered:
                       </h6>
                       <ol className="list-decimal list-outside ml-4">
@@ -199,7 +201,7 @@ const Fellowships = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                       href={"/pdfs/" + fellowship.pdf}
-                      className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+                      className="w-fit btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
                     >
                       Download Syllabus
                     </a>
@@ -217,29 +219,29 @@ const Fellowships = () => {
         </h3>
         <div className="flex flex-col gap-8">
           {presentList.map((fellowship) => {
-            const slicedText = fellowship.length
+            const slicedText = fellowship.duration
               .split(" ")
               .slice(0, -1)
               .join(" ");
-            const boldedText = fellowship.length.split(" ")[-1];
+            const boldedText = fellowship.duration.split(" ")[-1];
             return (
-              <div className="grid grid-cols-3 gap-4">
-                <div className="flex justify-center items-center">
+              <div className="grid sm:grid-cols-3 gap-4">
+                <div className="hidden sm:flex justify-center items-center">
                   <img
                     src="/img/logos/aghrass-logo-transparent-1.png"
                     className="w-full"
                     alt="AGHRASS"
                   />
                 </div>
-                <div className="col-span-2 flex flex-col gap-2">
-                  <h5 className="underline">{fellowship.title}</h5>
+                <div className="col-span-2 flex flex-col justify-center gap-2">
+                  <h5 className="underline font-bold">{fellowship.title}</h5>
                   <h6 className="text-base">
                     {slicedText}&nbsp;
                     <span className="font-bold">{boldedText}</span>
                   </h6>
                   {fellowship.certs ? (
                     <div className="flex flex-col">
-                      <h6 className="underline font-bold">
+                      <h6 className="underline">
                         Professional Certificates offered:
                       </h6>
                       <ol className="list-decimal list-outside ml-4">
@@ -255,7 +257,7 @@ const Fellowships = () => {
                       target="_blank"
                       rel="noreferrer noopener"
                       href={"/pdfs/" + fellowship.pdf}
-                      className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
+                      className="w-fit btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
                     >
                       Download Syllabus
                     </a>
