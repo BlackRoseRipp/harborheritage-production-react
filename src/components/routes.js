@@ -10,6 +10,7 @@ const LaloCollege = React.lazy(() => import("../pages/LaloCollege"));
 const LincolnCollege = React.lazy(() => import("../pages/LincolnCollege"));
 const Iglass = React.lazy(() => import("../pages/Iglass"));
 const Fellowships = React.lazy(() => import("../pages/Fellowships"));
+const Associates = React.lazy(() => import("../pages/Associates"));
 const Contact = React.lazy(() => import("../pages/Contact"));
 const PageNotFound = React.lazy(() => import("../pages/PageNotFound"));
 
@@ -32,6 +33,10 @@ export const pages = [
   {
     path: "/diplomatic-fellowships",
     component: <Fellowships />,
+  },
+  {
+    path: "/associates-of-arts-aa-program",
+    component: <Associates />,
   },
   { path: "/contact-us", component: <Contact /> },
   { path: "*", component: <PageNotFound /> },
