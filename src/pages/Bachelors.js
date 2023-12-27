@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 
-const Associates = () => {
+const Bachelors = () => {
   return (
     <Fragment>
       <section className="relative w-full overflow-x-hidden">
-        <div className="bg-[url(../public/img/pexels-pixabay-256455.jpg)] bg-cover bg-center bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
+        <div className="bg-[url(../public/img/pexels-godisable-jacob-901962.jpg)] bg-cover 2xl:bg-[center_top_-10rem] bg-center bg-no-repeat w-full banner lg:before:border-t-[6.25rem] md:before:border-t-[4rem] lg:after:border-t-[6.25rem] md:after:border-t-[4rem]">
           <div className="bg-black/50 w-full">
             <div className="max-w-screen-xl mx-auto w-full lg:min-h-[700px] xl:min-h-[800px] min-h-[500px] flex items-end justify-center px-2">
               <h1 className="text-white heading md:text-5xl text-3xl font-semibold text-center max-w-6xl lg:pb-[6.25rem] md:pb-16 pb-7">
-                HHU Associate of Arts
+                HHU Bachelor of Arts
                 <br />
                 ​in Gender and Human Rights
               </h1>
@@ -19,7 +19,7 @@ const Associates = () => {
       <section className="max-w-screen-xl w-full mx-auto px-2 lg:py-24 py-16">
         <img
           className="mt-8 mb-16 mx-auto sm:w-[380px] w-3/4 h-auto"
-          src="/img/logos/associates-of-arts-logo.png"
+          src="/img/logos/bachelor-of-arts-logo.png"
           alt="Academic Conservatory"
         />
         <div className="flex flex-col gap-8">
@@ -27,47 +27,52 @@ const Associates = () => {
             Curriculum and Criteria (with options)
           </h3>
           <p className="text-wall">
-            <u>OVERVIEW</u>: <br />
-            Our Associate of Arts Program can be used as an{" "}
-            <strong>Academic Degree</strong> for career advancement or an
-            entry-level <strong>Vocational Certificate Program</strong> for
-            those that are new to Gender and Human Rights (G/HR) Advocacy or
-            those not seeking a collegiate career but needing to add the
-            professional education to the current work that they do for the
-            community they serve.
+            <u>OVERVIEW</u>
+            :
+            <br />
+            Our Bachelor of Arts Program is intended to be used as an{" "}
+            <strong>Academic Degree</strong> for career advancement as an
+            mid-level professional in Gender and Human Rights (G/HR) Advocacy.
             <br />
             <br />
-            Specifically designed for the: <br />
+            Specifically designed for the:
             <br />
-            1. <strong>High School Student</strong> that knows that are not
-            college bound but needs the education in the G/HR professional
-            realm. <br />
+            <br />
+            1. <strong>Single-Mother Returning to School</strong> that is
+            looking for a promotion or lateral career move.
+            <br />
             2. <strong>Seniors or Retirees</strong> that are wanting to enter
             into G/HR Advocacy as their "Second Wind" in life and needing the
-            certification. <br />
-            3. <strong>Youths</strong> seeking a more rewarding career that can
-            help their Tribe and their community. <br />
+            certification.
+            <br />
+            3. <strong>Returning Citizens</strong> seeking a new career that can
+            help them transition into their community.
+            <br />
             4. <strong>Men and Women</strong> in-between careers or currently
             unemployed that need and want the support to challenge the field of
             Gender and Human Rights to educate and instruct the community they
-            serve. <br />
+            serve.
+            <br />
             <br />
             This is a one calendar-year (52 week) program (with sessions{" "}
-            <strong>January to December</strong> or <strong>June to May</strong>
-            , annually) that couples the lectures and lessons in Gender and
-            Human Rights, three (3) virtual Fellowship programs, a six-week
-            internship and a Thesis Paper that will be due at the end of the
-            course. <br />
+            <strong>January to December</strong> or{" "}
+            <strong>June to May,</strong> annually) that couples the lectures
+            and lessons in Gender and Human Rights, three (3) virtual Fellowship
+            programs, a six-week internship and a Thesis Paper that will be due
+            at the end of the course.
+            <br />
             <br />
             This solution-based curriculum is focused in the mission of Social
             Work, Social and Human Service and Community and Public Health
             curriculums. As an Internationally registered program, with the
             mission of supporting compliance with local Continuing Education
             Units (CEU) and the protocols for Internships and Externship
-            requirements in Gender and Human Rights. <br />
+            requirements in Gender and Human Rights.
             <br />
-            Successful completion of this program comes with a sealed digital
-            diploma or a mailed physical diploma. <br />
+            <br />
+            Successful completion of this program comes with an sealed digital
+            diploma or a mailed physical diploma.
+            <br />
             <br />
             <strong>
               {" "}
@@ -78,59 +83,72 @@ const Associates = () => {
             - January to December (FULL registration by <strong>
               October
             </strong>{" "}
-            of <u>prior</u> year) <br />
+            of <u>prior</u> year)
+            <br />
             <strong>Session 2</strong> - June to May (FULL registration by{" "}
-            <strong>April</strong> of <u>current</u> year) <br />
+            <strong>April</strong> of <u>current</u> year)
+            <br />
             <br />
             <strong>
               <u>Investment</u>
             </strong>
-            : <br />
+            :
+            <br />
             Current market rate for this one-year, Corporate offering is{" "}
             <u>
-              <strong>USD$10,00.00</strong>
+              <strong>USD$11,500.00</strong>
             </u>{" "}
-            per Student, via invoice. ( <strong>$9,500</strong> for the course
+            per Student, via invoice. (<strong>$11,000</strong> for the course
             and <strong>$500</strong> for Graduation Fees). Payment plans are
             offered with a <strong>USD $1,500</strong> deposit and eight (8)
-            monthly payments of <strong>USD$1062.50</strong> ( no-interest
-            financing; payments through Square, CashApp and PayPal). <br />
+            monthly payments of <strong>USD$1,250.00</strong> ( no-interest
+            financing; payments through Square, CashApp and PayPal).
+            <br />
             <br />
             <u>
               <strong>Prerequisites</strong>
             </u>
-            : <br />
-            Designed to give credit for <strong>Live/Work Experience</strong>,
-            in Humanities, Theology, Human Service Work and unlicensed
-            Social/Case Work or retired LCSW, this program was designed to
-            validate the lineage of your work to date. You must have a
-            verifiable Forensic CV of your work, education and
-            benevolence/service work. This can come as formal education (Minimum
-            High School Diploma/GED), <strong>verifiable</strong> Life/Work
-            experience (up 5 years or more) or a combination of both, to be set
-            for review by our formal Professional Educational Board. <br />
+            :
+            <ul className="list-disc list-outside ml-8">
+              <li>Associate Degree (HHU or transferred in) or</li>
+              <li>
+                <strong>Live/Work Experience</strong>, in Humanities, Theology,
+                Human Service Work and unlicensed Social/Case Work or retired
+                LCSW, this program was designed to validate the lineage of your
+                work to date. You must have a verifiable Forensic CV of your
+                work, education and benevolence/service work. This can come as
+                formal education, <strong>verifiable</strong> Life/Work
+                experience (3-5 years or more in the field) or a combination of
+                both, to be set for review by our formal Professional
+                Educational Board.
+              </li>
+            </ul>
             <br />
+            <u>​</u>
             <strong>
               <u>Application process</u>:
-            </strong>{" "}
+            </strong>
             <br />
             Each and every applicant <strong>must</strong> adhere to these
-            procedures or will have their emailed application deleted. <br />
+            procedures or will have their emailed application deleted.
+            <br />
             We have well over 200-300 applicants per semester for these courses
             so we cannot decipher (or assume) anything in the email that is
-            unclear! <br />
+            unclear!
+            <br />
             <br />
             To apply you{" "}
             <strong>
               <u>MUST</u>
             </strong>
-            : <br />
+            :
+            <br />
             <br />
             1.{" "}
             <strong>
               <u>Obtain</u>
-            </strong>
-            : <strong>Two (2) letters</strong> of Reference/Referral** from
+            </strong>{" "}
+            <strong>Two (2) letters</strong> of Reference/Referral** from
             (either/or) an Educational, Professional or Theological reference,
             that can <u>verify</u> the prerequisites in the respective areas and
             can validate both your character and work ethic. The letter{" "}
@@ -138,10 +156,11 @@ const Associates = () => {
               <u>MUST</u>
             </strong>{" "}
             be on official letterhead and must have a legal (
-            <strong>digital or hand-ink</strong>) signature affixed the letter
-            (with seal, if applicable). No 'cursive' fonts will be accepted for
-            signatures. All letters will be vetted and verified for validity and
-            consistency. <br />
+            <strong>digital or hand-ink</strong>
+            ) signature affixed the letter (with seal, if applicable). No
+            'cursive' fonts will be accepted for signatures. All letters will be
+            vetted and verified for validity and consistency.
+            <br />
             <br />
             **The letter Referral/Reference must answer the following
             questions/statements:
@@ -187,11 +206,12 @@ const Associates = () => {
               <li>Why this program will help you attain this goal in life?</li>
             </ol>
             <br />
-            3.{" "}
+            3.
             <u>
               <strong>Attach these documents to ONE email</strong>
             </u>
-            : (HarborHeritageUniversity<u>@gmail.com</u> )
+            : (HarborHeritageUniversity
+            <u>@gmail.com</u>)
             <ol className="list-decimal list-outside ml-8">
               <li>
                 The two (2) <u>letters of reference/referral</u>
@@ -215,7 +235,7 @@ const Associates = () => {
           <a
             target="_blank"
             rel="noreferrer noopener"
-            href="/pdfs/hhu_associate_of_arts_syllabus_.pdf"
+            href="/pdfs/hhu_bachelor_of_arts_syllabus_.pdf"
             className="btn-primary hover:bg-gold-primary hover:text-white hover:border-gold-primary text-blue-primary border-blue-primary"
           >
             Download Application
@@ -255,4 +275,4 @@ const Associates = () => {
   );
 };
 
-export default Associates;
+export default Bachelors;

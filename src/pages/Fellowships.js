@@ -130,7 +130,7 @@ const Fellowships = () => {
             their representatives are offered at a discounted rate; courses can
             be offered complementary if the FIGHR course offered is for an
             accredited academic program.
-            <ul>
+            <ul className="list-disc ml-4 list-outside">
               <li>
                 Eight (8) Week Course - <strong>USD</strong>{" "}
                 <strong>$500.00</strong>
