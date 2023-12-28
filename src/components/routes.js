@@ -12,6 +12,8 @@ const Iglass = React.lazy(() => import("../pages/Iglass"));
 const Fellowships = React.lazy(() => import("../pages/Fellowships"));
 const Associates = React.lazy(() => import("../pages/Associates"));
 const Bachelors = React.lazy(() => import("../pages/Bachelors"));
+const Masters = React.lazy(() => import("../pages/Masters"));
+const Doctorate = React.lazy(() => import("../pages/Doctorate"));
 const Contact = React.lazy(() => import("../pages/Contact"));
 const PageNotFound = React.lazy(() => import("../pages/PageNotFound"));
 
@@ -42,6 +44,14 @@ export const pages = [
   {
     path: "/bachelor-of-arts-ba-program",
     component: <Bachelors />,
+  },
+  {
+    path: "/master-of-arts-ma-program",
+    component: <Masters />,
+  },
+  {
+    path: "/doctorate-phd-program",
+    component: <Doctorate />,
   },
   {
     path: "/hhu-iglass-womens-college",
